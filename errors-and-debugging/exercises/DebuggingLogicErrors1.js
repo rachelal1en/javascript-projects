@@ -30,3 +30,5 @@ if (launchReady) {
 } else {
    console.log('Launch scrubbed.');
 }
+
+// it did launch it should not have
