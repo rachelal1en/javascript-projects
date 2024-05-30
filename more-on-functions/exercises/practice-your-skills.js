@@ -13,3 +13,23 @@ c) Print the new array to confirm your work.
 */
 
 let arr = ['Elocution', 21, 'Clean teeth', 100];
+
+let tripleVal = function(val) {
+    if (typeof val === "number") {
+        return val*3;
+    }
+    else if (typeof val === "string") {
+        return "ARRR!";
+    }
+    else {
+        return val;
+    }
+}
+
+console.log(tripleVal(3));
+console.log(tripleVal("a"));
+console.log(tripleVal(true));
+
+let modTripleVal = arr.map(tripleVal);
+
+console.log(modTripleVal);
