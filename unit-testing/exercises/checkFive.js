@@ -1,4 +1,4 @@
-function checkFive(num){
+  function checkFive(num){
    let result = '';
    if (num < 5){
      result = num + " is less than 5.";
@@ -9,3 +9,5 @@ function checkFive(num){
    }
    return result;
  }
+
+ module.exports = checkFive;
